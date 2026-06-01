@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankit Kumar Gupta — Senior iOS Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">AKG</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-content">
+      <span class="hero-tag">iOS Developer</span>
+      <h1 class="hero-name">Ankit<br/><em>Kumar</em><br/>Gupta</h1>
+      <p class="hero-sub">7+ years crafting secure, scalable iOS apps.<br/>Swift · UIKit · SwiftUI · MVVM</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-code-panel">
+      <div class="code-window">
+        <div class="code-dots"><span></span><span></span><span></span></div>
+        <pre class="code-block"><code><span class="kw">import</span> SwiftUI
+
+<span class="kw">struct</span> <span class="type">AnkitProfile</span>: <span class="type">View</span> {
+  <span class="kw">var</span> experience = <span class="num">"7+ years"</span>
+  <span class="kw">var</span> role = <span class="num">"Senior iOS Dev"</span>
+
+  <span class="kw">var</span> body: some <span class="type">View</span> {
+    <span class="type">VStack</span> {
+      <span class="type">Text</span>(role)
+        .font(.title.bold())
+      <span class="type">Text</span>(experience)
+        .foregroundColor(.accent)
+    }
+  }
+}</code></pre>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Building apps people <em>trust</em></h2>
+          <p>Senior iOS Developer with 7+ years of experience designing, developing, and deploying high-quality, scalable mobile applications using Swift. I specialize in reactive programming, enterprise-grade security, and clean MVVM architectures.</p>
+          <p>From fintech apps handling real-money payments in Kuwait and Pakistan, to insurance platforms for Singapore and India — I've built for users across the globe and across industries.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Years Experience</span></div>
+            <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Apps Shipped</span></div>
+            <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Countries</span></div>
+          </div>
+        </div>
+        <div class="about-details">
+          <div class="detail-card">
+            <div class="detail-icon">🔐</div>
+            <h3>Security First</h3>
+            <p>SSL Pinning, RSA-2048, AES-256 encryption implemented in live financial applications.</p>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">⚡</div>
+            <h3>Reactive Expert</h3>
+            <p>Deep proficiency in RxSwift and Combine for building responsive, event-driven apps.</p>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">🏗️</div>
+            <h3>Architecture</h3>
+            <p>MVVM, MVC, Clean Architecture with SOLID principles. Built reusable Swift frameworks for Flutter apps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">02 / Skills</div>
+      <h2 class="section-title">Technical <em>Arsenal</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3>Languages & UI</h3>
+          <div class="skill-tags">
+            <span>Swift (Advanced)</span>
+            <span>UIKit (Advanced)</span>
+            <span>SwiftUI</span>
+            <span>SnapKit</span>
+            <span>Auto Layout</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Architecture</h3>
+          <div class="skill-tags">
+            <span>MVVM</span>
+            <span>MVC</span>
+            <span>Clean Architecture</span>
+            <span>SOLID Principles</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Reactive & Networking</h3>
+          <div class="skill-tags">
+            <span>RxSwift</span>
+            <span>Combine</span>
+            <span>Alamofire</span>
+            <span>URLSession</span>
+            <span>RESTful APIs</span>
+            <span>SSL Pinning</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Security</h3>
+          <div class="skill-tags">
+            <span>RSA-2048</span>
+            <span>AES-256</span>
+            <span>Keychain</span>
+            <span>Public Key Pinning</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Payments</h3>
+          <div class="skill-tags">
+            <span>Apple Pay</span>
+            <span>In-App Purchase</span>
+            <span>Stripe</span>
+            <span>CCAvenue</span>
+            <span>KNET</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Data & Storage</h3>
+          <div class="skill-tags">
+            <span>Core Data</span>
+            <span>Realm</span>
+            <span>UserDefaults</span>
+            <span>SQLite</span>
+            <span>Keychain</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Testing</h3>
+          <div class="skill-tags">
+            <span>XCTestCase</span>
+            <span>XCUITestCase</span>
+            <span>TDD</span>
+            <span>Unit Testing</span>
+            <span>UI Testing</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools & CI/CD</h3>
+          <div class="skill-tags">
+            <span>Xcode</span>
+            <span>Git / GitHub</span>
+            <span>Fastlane</span>
+            <span>Firebase Crashlytics</span>
+            <span>Charles Proxy</span>
+            <span>CocoaPods</span>
+            <span>SPM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 / Projects</div>
+      <h2 class="section-title">Featured <em>Work</em></h2>
+      <div class="projects-grid">
+
+        <article class="project-card" data-index="0">
+          <div class="project-header">
+            <div class="project-number">01</div>
+            <div class="project-market">🇮🇳 India · Banking</div>
+          </div>
+          <h3>PNB Udaan</h3>
+          <p class="project-company">Punjab National Bank</p>
+          <p class="project-desc">Enterprise iOS app for PNB employees covering performance tracking, query management, and HR. Architected a Digital PMS with automated target-setting. Built a reusable Swift framework embedded into a Flutter-based HRMS.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>MVVM</span><span>SSL Pinning</span><span>RSA-2048</span><span>UIKit</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+        <article class="project-card" data-index="1">
+          <div class="project-header">
+            <div class="project-number">02</div>
+            <div class="project-market">🇮🇳 India · Insurance</div>
+          </div>
+          <h3>Tata AIG Spark</h3>
+          <p class="project-company">Tata AIG Insurance</p>
+          <p class="project-desc">Centralized pre-sales platform for Tata AIG agents. Delivered producer onboarding, profile management, needs analysis tools, target tracking, and meeting scheduling.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>UIKit</span><span>AES-256</span><span>SSL Pinning</span><span>MVVM</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+        <article class="project-card featured" data-index="2">
+          <div class="project-header">
+            <div class="project-number">03</div>
+            <div class="project-market">🇨🇦 Canada · Commerce</div>
+          </div>
+          <h3>RealOnes</h3>
+          <p class="project-company">GBA Community App</p>
+          <p class="project-desc">Community platform connecting Black- and marginalized-owned businesses with shoppers in Canada. NearMe discovery, ownership-based filters, industry categorization, and analytics dashboards.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>SwiftUI</span><span>Branch.io</span><span>XCTestCase</span><span>MVVM</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+        <article class="project-card" data-index="3">
+          <div class="project-header">
+            <div class="project-number">04</div>
+            <div class="project-market">🇰🇼 Kuwait · Fintech</div>
+          </div>
+          <h3>Payzah</h3>
+          <p class="project-company">Merchant Payments</p>
+          <p class="project-desc">Merchant payment and business management for Kuwait. Payment links, e-store, invoicing, booking, bilingual (Arabic/English) support, team access control, KNET and international cards.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>UIKit</span><span>Apple Pay</span><span>KNET</span><span>MVVM</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+        <article class="project-card" data-index="4">
+          <div class="project-header">
+            <div class="project-number">05</div>
+            <div class="project-market">🇸🇬 Singapore · Fintech</div>
+          </div>
+          <h3>Snack by Income</h3>
+          <p class="project-company">Insurance & Investment</p>
+          <p class="project-desc">Bite-sized insurance and investment app unifying life, critical illness, and accident insurance with investment and wellness. Flexible coverage controls, rewards system, fitness-driven incentives.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>RxSwift</span><span>SnapKit</span><span>SSL Pinning</span><span>MVVM</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+        <article class="project-card" data-index="5">
+          <div class="project-header">
+            <div class="project-number">06</div>
+            <div class="project-market">🇵🇰 Pakistan · Fintech</div>
+          </div>
+          <h3>Sadad Payment</h3>
+          <p class="project-company">Digital Wallet & Bills</p>
+          <p class="project-desc">Fintech app integrating utility, telecom, and digital wallet services. Mobile recharge, bill payments, wallet top-ups. Apple Pay integration, SSL pinning, and payment status tracking.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>Apple Pay</span><span>XCUITestCase</span><span>SSL Pinning</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+        <article class="project-card" data-index="6">
+          <div class="project-header">
+            <div class="project-number">07</div>
+            <div class="project-market">🌏 Global · PropTech</div>
+          </div>
+          <h3>PropMan Home</h3>
+          <p class="project-company">Amber Group</p>
+          <p class="project-desc">Companion app for Amber Group's PropMan platform enabling digital strata and property management. Property security, account tracking, and streamlined community management workflows.</p>
+          <div class="project-tech">
+            <span>Swift</span><span>UIKit</span><span>XCTestCase</span><span>SSL Pinning</span>
+          </div>
+          <a href="#" class="project-link">App Store ↗</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label">04 / Experience</div>
+      <h2 class="section-title">Career <em>Journey</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2021 – Present</div>
+          <div class="timeline-body">
+            <h3>Software Engineer (iOS)</h3>
+            <p class="timeline-company">Neosoft Technologies and Software Limited · Noida, India</p>
+            <ul>
+              <li>Led end-to-end iOS application lifecycle — architecture design, feature development, and App Store deployment for multiple enterprise clients.</li>
+              <li>Mentored junior and mid-level iOS developers, enforcing SOLID principles and clean code practices.</li>
+              <li>Implemented enterprise-grade security: SSL Pinning, RSA-2048, and AES-256 encryption for financial and insurance applications.</li>
+              <li>Built a reusable iOS framework integrated into a Flutter-based HRMS for Punjab National Bank.</li>
+              <li>Integrated Apple Pay, Auto-Renewal IAP, Stripe, and KNET payment gateways.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Apr 2019 – Sep 2021</div>
+          <div class="timeline-body">
+            <h3>iOS Software Developer</h3>
+            <p class="timeline-company">Quy Technology Private Limited · India</p>
+            <ul>
+              <li>Developed feature-rich iOS applications using Swift and UIKit.</li>
+              <li>Integrated RESTful APIs using URLSession and Alamofire with JSON parsing and auth management.</li>
+              <li>Implemented Core Data, Realm, Keychain for data persistence and secure storage.</li>
+              <li>Configured Push Notifications via APNs and Firebase Cloud Messaging (FCM).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item education">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2013 – May 2017</div>
+          <div class="timeline-body">
+            <h3>B.E. in Computer Science</h3>
+            <p class="timeline-company">RGPV University · Bhopal, India</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">05 / Contact</div>
+      <h2 class="section-title">Let's <em>Connect</em></h2>
+      <p class="contact-sub">Open to senior iOS roles, freelance projects, and consulting opportunities.</p>
+      <div class="contact-links">
+        <a href="mailto:ankitkgt30@gmail.com" class="contact-item">
+          <span class="contact-icon">✉</span>
+          <span>ankitkgt30@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/ankit-gupta-6424221aa" target="_blank" class="contact-item">
+          <span class="contact-icon">in</span>
+          <span>LinkedIn Profile</span>
+        </a>
+        <a href="tel:+919644084632" class="contact-item">
+          <span class="contact-icon">📱</span>
+          <span>+91 9644084632</span>
+        </a>
+        <div class="contact-item no-link">
+          <span class="contact-icon">📍</span>
+          <span>Noida, Uttar Pradesh, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Ankit Kumar Gupta · Senior iOS Developer</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
