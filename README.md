@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Ankit Kumar Gupta**, Senior iOS Developer with 7+ years of experience.
 
-🌐 **Live Site:** [https://YOUR_USERNAME.github.io](https://YOUR_USERNAME.github.io)
+🌐 **Live Site:** [https://ankitkumarg1.github.io](https://ankitkumarg1.github.io)
 
 ---
 
